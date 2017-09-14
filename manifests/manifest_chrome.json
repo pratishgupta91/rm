@@ -1,0 +1,46 @@
+{
+  "manifest_version": 2,
+
+  "name": "q",
+  "description": "A YouTube extension which allows you to queue YouTube videos",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "/1.png"
+  },
+
+  "icons": {
+    "16": "/1.png",
+    "48": "/1.png",
+    "128": "/1.png"
+  },
+
+  "permissions": [
+   "activeTab",
+   "storage",
+   "contextMenus",
+   "tabs"
+   ],
+
+  "background": {
+      "page": "/background.html"
+  },
+
+  "content_scripts": [{
+    "run_at": "document_end",
+    "matches": ["https://www.nytimes.com/*"],
+    "css": ["/css/inject.css"],
+    "js": ["/js/jquery.js", "/js/jquery-ui.js", "/js/content.js", "/js/ts.js"]
+  }],
+
+  "web_accessible_resources": [
+      "/img/play.png",
+      "/img/pause.png",
+      "/img/up.png",
+      "/img/down.png",
+      "/img/next.png",
+      "/img/prev.png",
+      "/img/delete.png",
+      "/img/add_to_playlist.png"
+    ]
+}
