@@ -5,6 +5,7 @@
   "devDependencies": {
     "@types/jquery": "file:node_modules/@types/jquery",
     "gulp": "^3.9.1",
+    "gulp-install": "file:node_modules\\gulp-install",
     "gulp-typescript": "^3.2.0",
     "typescript": "^2.4.1"
   },

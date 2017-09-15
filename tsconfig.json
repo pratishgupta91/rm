@@ -13,32 +13,8 @@
     },
 
     "files": [
-        "./tsrc/common/Video.ts",
-        "./tsrc/BrowserApi.ts",
-        "./tsrc/Api.ts",
-        "./tsrc/common/Res.ts",
-        "./tsrc/common/Events.ts",
-        "./tsrc/common/Common.ts",
-        "./tsrc/common/Utils.ts",
-        "./tsrc/common/Data.ts",
-        "./tsrc/common/Tab.ts",
-        "./tsrc/common/JqueryHelper.ts",
-        "./tsrc/common/Help.ts",
-        "./tsrc/view/ContentDataHandler.ts",
-        "./tsrc/common/CommandHandler.ts",
-        "./tsrc/view/Element.ts",
-        "./tsrc/view/ControlElement.ts",
-        "./tsrc/view/ViewHandler.ts",
-        "./tsrc/view/RibbonElement.ts",
-        "./tsrc/view/VideoBoxElement.ts",
-        "./tsrc/view/GridElement.ts",
-        "./tsrc/view/ControlPanel.ts",
-        "./tsrc/view/Content.ts",
-        "./tsrc/view/VideoBoxCPElement.ts",
-        "./tsrc/view/HelpElement.ts",
-        "./tsrc/background/AppState.ts",
-        "./tsrc/background/BgDataHandler.ts",
-        "./tsrc/background/Background.ts",
-        "./tsrc/background/StorageDataHandler.ts"
+        "./tsrc/common/infra.ts",
+        "./tsrc/view/content.ts",
+        "./tsrc/view/contentHr.ts"
     ]
 }
